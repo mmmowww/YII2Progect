@@ -125,4 +125,7 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+    public function actionFeedback(){
+		return $this->render('feedback')
+	}
 }
